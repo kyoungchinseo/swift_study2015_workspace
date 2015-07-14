@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D931D4BB1B52B8E3007FCFC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931D4BA1B52B8E3007FCFC3 /* AppDelegate.swift */; };
+		D931D4BD1B52B8E3007FCFC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931D4BC1B52B8E3007FCFC3 /* ViewController.swift */; };
+		D931D4BF1B52B8E3007FCFC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D931D4BE1B52B8E3007FCFC3 /* Assets.xcassets */; };
+		D931D4C21B52B8E3007FCFC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D931D4C01B52B8E3007FCFC3 /* Main.storyboard */; };
+		D931D4CD1B52B8E3007FCFC3 /* KRWordClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931D4CC1B52B8E3007FCFC3 /* KRWordClockTests.swift */; };
+		D931D4D81B52B8E3007FCFC3 /* KRWordClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931D4D71B52B8E3007FCFC3 /* KRWordClockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D931D4C91B52B8E3007FCFC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D931D4AF1B52B8E3007FCFC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D931D4B61B52B8E3007FCFC3;
+			remoteInfo = KRWordClock;
+		};
+		D931D4D41B52B8E3007FCFC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D931D4AF1B52B8E3007FCFC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D931D4B61B52B8E3007FCFC3;
+			remoteInfo = KRWordClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D931D4B71B52B8E3007FCFC3 /* KRWordClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRWordClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D931D4BA1B52B8E3007FCFC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D931D4BC1B52B8E3007FCFC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D931D4BE1B52B8E3007FCFC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D931D4C11B52B8E3007FCFC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D931D4C31B52B8E3007FCFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D931D4C81B52B8E3007FCFC3 /* KRWordClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRWordClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D931D4CC1B52B8E3007FCFC3 /* KRWordClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRWordClockTests.swift; sourceTree = "<group>"; };
+		D931D4CE1B52B8E3007FCFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D931D4D31B52B8E3007FCFC3 /* KRWordClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRWordClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D931D4D71B52B8E3007FCFC3 /* KRWordClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRWordClockUITests.swift; sourceTree = "<group>"; };
+		D931D4D91B52B8E3007FCFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D931D4B41B52B8E3007FCFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D931D4C51B52B8E3007FCFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D931D4D01B52B8E3007FCFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D931D4AE1B52B8E3007FCFC3 = {
+			isa = PBXGroup;
+			children = (
+				D931D4B91B52B8E3007FCFC3 /* KRWordClock */,
+				D931D4CB1B52B8E3007FCFC3 /* KRWordClockTests */,
+				D931D4D61B52B8E3007FCFC3 /* KRWordClockUITests */,
+				D931D4B81B52B8E3007FCFC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D931D4B81B52B8E3007FCFC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D931D4B71B52B8E3007FCFC3 /* KRWordClock.app */,
+				D931D4C81B52B8E3007FCFC3 /* KRWordClockTests.xctest */,
+				D931D4D31B52B8E3007FCFC3 /* KRWordClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D931D4B91B52B8E3007FCFC3 /* KRWordClock */ = {
+			isa = PBXGroup;
+			children = (
+				D931D4BA1B52B8E3007FCFC3 /* AppDelegate.swift */,
+				D931D4BC1B52B8E3007FCFC3 /* ViewController.swift */,
+				D931D4BE1B52B8E3007FCFC3 /* Assets.xcassets */,
+				D931D4C01B52B8E3007FCFC3 /* Main.storyboard */,
+				D931D4C31B52B8E3007FCFC3 /* Info.plist */,
+			);
+			path = KRWordClock;
+			sourceTree = "<group>";
+		};
+		D931D4CB1B52B8E3007FCFC3 /* KRWordClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D931D4CC1B52B8E3007FCFC3 /* KRWordClockTests.swift */,
+				D931D4CE1B52B8E3007FCFC3 /* Info.plist */,
+			);
+			path = KRWordClockTests;
+			sourceTree = "<group>";
+		};
+		D931D4D61B52B8E3007FCFC3 /* KRWordClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D931D4D71B52B8E3007FCFC3 /* KRWordClockUITests.swift */,
+				D931D4D91B52B8E3007FCFC3 /* Info.plist */,
+			);
+			path = KRWordClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D931D4B61B52B8E3007FCFC3 /* KRWordClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D931D4DC1B52B8E3007FCFC3 /* Build configuration list for PBXNativeTarget "KRWordClock" */;
+			buildPhases = (
+				D931D4B31B52B8E3007FCFC3 /* Sources */,
+				D931D4B41B52B8E3007FCFC3 /* Frameworks */,
+				D931D4B51B52B8E3007FCFC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRWordClock;
+			productName = KRWordClock;
+			productReference = D931D4B71B52B8E3007FCFC3 /* KRWordClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D931D4C71B52B8E3007FCFC3 /* KRWordClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D931D4DF1B52B8E3007FCFC3 /* Build configuration list for PBXNativeTarget "KRWordClockTests" */;
+			buildPhases = (
+				D931D4C41B52B8E3007FCFC3 /* Sources */,
+				D931D4C51B52B8E3007FCFC3 /* Frameworks */,
+				D931D4C61B52B8E3007FCFC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D931D4CA1B52B8E3007FCFC3 /* PBXTargetDependency */,
+			);
+			name = KRWordClockTests;
+			productName = KRWordClockTests;
+			productReference = D931D4C81B52B8E3007FCFC3 /* KRWordClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D931D4D21B52B8E3007FCFC3 /* KRWordClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D931D4E21B52B8E3007FCFC3 /* Build configuration list for PBXNativeTarget "KRWordClockUITests" */;
+			buildPhases = (
+				D931D4CF1B52B8E3007FCFC3 /* Sources */,
+				D931D4D01B52B8E3007FCFC3 /* Frameworks */,
+				D931D4D11B52B8E3007FCFC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D931D4D51B52B8E3007FCFC3 /* PBXTargetDependency */,
+			);
+			name = KRWordClockUITests;
+			productName = KRWordClockUITests;
+			productReference = D931D4D31B52B8E3007FCFC3 /* KRWordClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D931D4AF1B52B8E3007FCFC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = nhnnext;
+				TargetAttributes = {
+					D931D4B61B52B8E3007FCFC3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D931D4C71B52B8E3007FCFC3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D931D4B61B52B8E3007FCFC3;
+					};
+					D931D4D21B52B8E3007FCFC3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D931D4B61B52B8E3007FCFC3;
+					};
+				};
+			};
+			buildConfigurationList = D931D4B21B52B8E3007FCFC3 /* Build configuration list for PBXProject "KRWordClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D931D4AE1B52B8E3007FCFC3;
+			productRefGroup = D931D4B81B52B8E3007FCFC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D931D4B61B52B8E3007FCFC3 /* KRWordClock */,
+				D931D4C71B52B8E3007FCFC3 /* KRWordClockTests */,
+				D931D4D21B52B8E3007FCFC3 /* KRWordClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D931D4B51B52B8E3007FCFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D931D4BF1B52B8E3007FCFC3 /* Assets.xcassets in Resources */,
+				D931D4C21B52B8E3007FCFC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D931D4C61B52B8E3007FCFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D931D4D11B52B8E3007FCFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D931D4B31B52B8E3007FCFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D931D4BD1B52B8E3007FCFC3 /* ViewController.swift in Sources */,
+				D931D4BB1B52B8E3007FCFC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D931D4C41B52B8E3007FCFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D931D4CD1B52B8E3007FCFC3 /* KRWordClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D931D4CF1B52B8E3007FCFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D931D4D81B52B8E3007FCFC3 /* KRWordClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D931D4CA1B52B8E3007FCFC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D931D4B61B52B8E3007FCFC3 /* KRWordClock */;
+			targetProxy = D931D4C91B52B8E3007FCFC3 /* PBXContainerItemProxy */;
+		};
+		D931D4D51B52B8E3007FCFC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D931D4B61B52B8E3007FCFC3 /* KRWordClock */;
+			targetProxy = D931D4D41B52B8E3007FCFC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D931D4C01B52B8E3007FCFC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D931D4C11B52B8E3007FCFC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D931D4DA1B52B8E3007FCFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D931D4DB1B52B8E3007FCFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D931D4DD1B52B8E3007FCFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KRWordClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhnnext.KRWordClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D931D4DE1B52B8E3007FCFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KRWordClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhnnext.KRWordClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D931D4E01B52B8E3007FCFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KRWordClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhnnext.KRWordClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRWordClock.app/Contents/MacOS/KRWordClock";
+			};
+			name = Debug;
+		};
+		D931D4E11B52B8E3007FCFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KRWordClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhnnext.KRWordClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRWordClock.app/Contents/MacOS/KRWordClock";
+			};
+			name = Release;
+		};
+		D931D4E31B52B8E3007FCFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KRWordClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhnnext.KRWordClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KRWordClock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D931D4E41B52B8E3007FCFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KRWordClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhnnext.KRWordClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KRWordClock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D931D4B21B52B8E3007FCFC3 /* Build configuration list for PBXProject "KRWordClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D931D4DA1B52B8E3007FCFC3 /* Debug */,
+				D931D4DB1B52B8E3007FCFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D931D4DC1B52B8E3007FCFC3 /* Build configuration list for PBXNativeTarget "KRWordClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D931D4DD1B52B8E3007FCFC3 /* Debug */,
+				D931D4DE1B52B8E3007FCFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D931D4DF1B52B8E3007FCFC3 /* Build configuration list for PBXNativeTarget "KRWordClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D931D4E01B52B8E3007FCFC3 /* Debug */,
+				D931D4E11B52B8E3007FCFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D931D4E21B52B8E3007FCFC3 /* Build configuration list for PBXNativeTarget "KRWordClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D931D4E31B52B8E3007FCFC3 /* Debug */,
+				D931D4E41B52B8E3007FCFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D931D4AF1B52B8E3007FCFC3 /* Project object */;
+}
