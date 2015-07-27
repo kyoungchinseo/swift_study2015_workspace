@@ -1004,7 +1004,7 @@
                         <outlet property="minuteThree" destination="3MX-GU-X8u" id="t1m-ZN-Qat"/>
                         <outlet property="minuteTwenty" destination="lXc-bc-ldv" id="yMk-YW-zMg"/>
                         <outlet property="minuteTwo" destination="GZa-Hk-NCh" id="p8r-By-cLx"/>
-                        <outlet property="second" destination="tdW-k8-J9u" id="Kd6-U0-JT2"/>
+                        <outlet property="second" destination="tdW-k8-J9u" id="Yk7-dG-h7h"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
