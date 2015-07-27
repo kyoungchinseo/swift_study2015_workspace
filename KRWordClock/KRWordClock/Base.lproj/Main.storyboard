@@ -669,11 +669,11 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="KRWordClock" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="510" height="510"/>
+                        <rect key="frame" x="0.0" y="0.0" width="510" height="512"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Smd-Sj-w0U">
-                                <rect key="frame" x="18" y="18" width="64" height="64"/>
+                                <rect key="frame" x="18" y="20" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="육" id="ZfK-IB-2nu">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -681,7 +681,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AU5-tS-xeN">
-                                <rect key="frame" x="18" y="100" width="64" height="64"/>
+                                <rect key="frame" x="18" y="102" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="정" id="2LK-aD-xzG">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -689,7 +689,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2GW-te-KSf">
-                                <rect key="frame" x="100" y="100" width="64" height="64"/>
+                                <rect key="frame" x="100" y="102" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="오" id="y06-Dq-Ng8">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -697,7 +697,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n9k-yJ-TNz">
-                                <rect key="frame" x="182" y="100" width="64" height="64"/>
+                                <rect key="frame" x="182" y="102" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="일" id="yHi-Vn-2wO">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -705,7 +705,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GZa-Hk-NCh">
-                                <rect key="frame" x="264" y="100" width="64" height="64"/>
+                                <rect key="frame" x="264" y="102" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="이" id="zKK-98-8Ik">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -713,7 +713,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3MX-GU-X8u">
-                                <rect key="frame" x="346" y="100" width="64" height="64"/>
+                                <rect key="frame" x="346" y="102" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="삼" id="8gS-zL-b97">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -721,7 +721,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A9m-YG-7bv">
-                                <rect key="frame" x="428" y="100" width="64" height="64"/>
+                                <rect key="frame" x="428" y="102" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="사" id="0k1-za-fVc">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -729,7 +729,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wST-fj-Ec5">
-                                <rect key="frame" x="18" y="182" width="64" height="64"/>
+                                <rect key="frame" x="18" y="184" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="자" id="0j6-V4-9i0">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -737,7 +737,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lXc-bc-ldv">
-                                <rect key="frame" x="100" y="182" width="64" height="64"/>
+                                <rect key="frame" x="100" y="184" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="이" id="d6e-By-B25">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -745,7 +745,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i7V-cP-en9">
-                                <rect key="frame" x="182" y="182" width="64" height="64"/>
+                                <rect key="frame" x="182" y="184" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="삼" id="mhh-MB-s00">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -753,7 +753,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6aX-Gn-mbF">
-                                <rect key="frame" x="264" y="182" width="64" height="64"/>
+                                <rect key="frame" x="264" y="184" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="사" id="RdQ-NS-6PS">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -761,7 +761,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d3i-Jr-eet">
-                                <rect key="frame" x="346" y="182" width="64" height="64"/>
+                                <rect key="frame" x="346" y="184" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="오" id="7Cb-ai-EIm">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -769,7 +769,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EjK-99-Ly7">
-                                <rect key="frame" x="428" y="182" width="64" height="64"/>
+                                <rect key="frame" x="428" y="184" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="십" id="oLJ-qY-gJX">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -777,7 +777,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5xE-mq-gFN">
-                                <rect key="frame" x="18" y="264" width="64" height="64"/>
+                                <rect key="frame" x="18" y="266" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="네" id="IdL-cU-LiS">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -785,7 +785,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="STV-dN-x62">
-                                <rect key="frame" x="100" y="264" width="64" height="64"/>
+                                <rect key="frame" x="100" y="266" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="여" id="F4r-bn-S4s">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -793,7 +793,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EAr-1n-Ovd">
-                                <rect key="frame" x="182" y="264" width="64" height="64"/>
+                                <rect key="frame" x="182" y="266" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="덟" id="Ky5-ev-Dwj">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -801,7 +801,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RWW-he-8pX">
-                                <rect key="frame" x="264" y="264" width="64" height="64"/>
+                                <rect key="frame" x="264" y="266" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="아" id="epL-pp-9mW">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -809,7 +809,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hDG-oV-8Mh">
-                                <rect key="frame" x="346" y="264" width="64" height="64"/>
+                                <rect key="frame" x="346" y="266" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="홉" id="Rs2-WJ-f96">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -817,7 +817,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1F9-Le-XLw">
-                                <rect key="frame" x="428" y="264" width="64" height="64"/>
+                                <rect key="frame" x="428" y="266" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="시" id="ajh-yw-aLb">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -825,7 +825,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qix-Rm-aC1">
-                                <rect key="frame" x="18" y="346" width="64" height="64"/>
+                                <rect key="frame" x="18" y="348" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="세" id="Vt8-Vw-8j5">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -833,7 +833,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W0w-wq-kZi">
-                                <rect key="frame" x="100" y="346" width="64" height="64"/>
+                                <rect key="frame" x="100" y="348" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="일" id="GJc-r0-kl2">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -841,7 +841,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ic-hZ-Zwd">
-                                <rect key="frame" x="182" y="346" width="64" height="64"/>
+                                <rect key="frame" x="182" y="348" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="곱" id="Yft-AN-unL">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -849,7 +849,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H9a-cL-HNK">
-                                <rect key="frame" x="264" y="346" width="64" height="64"/>
+                                <rect key="frame" x="264" y="348" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="다" id="5a2-jM-sV8">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -857,7 +857,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lmi-nz-qWw">
-                                <rect key="frame" x="346" y="346" width="64" height="64"/>
+                                <rect key="frame" x="346" y="348" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="여" id="xyJ-Rs-bL4">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -865,7 +865,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6QC-zI-P0z">
-                                <rect key="frame" x="428" y="346" width="64" height="64"/>
+                                <rect key="frame" x="428" y="348" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="섯" id="bVw-hM-GnP">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -873,7 +873,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6fc-Ys-n8j">
-                                <rect key="frame" x="18" y="428" width="64" height="64"/>
+                                <rect key="frame" x="18" y="430" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="오" id="r3p-4F-miy">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -881,7 +881,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="imk-y8-gA5">
-                                <rect key="frame" x="100" y="428" width="64" height="64"/>
+                                <rect key="frame" x="100" y="430" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="전" id="AuL-gr-M33">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -889,7 +889,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dO7-5Y-Rh6">
-                                <rect key="frame" x="182" y="428" width="64" height="64"/>
+                                <rect key="frame" x="182" y="430" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="후" id="faC-LT-d3F">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -897,7 +897,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9rV-Sn-SSU">
-                                <rect key="frame" x="264" y="426" width="64" height="64"/>
+                                <rect key="frame" x="264" y="428" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="열" id="dsL-ud-M4X">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -905,7 +905,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zQs-K8-kY9">
-                                <rect key="frame" x="346" y="428" width="64" height="64"/>
+                                <rect key="frame" x="346" y="430" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="한" id="SWh-OJ-xlS">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -913,7 +913,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KFR-kf-WUt">
-                                <rect key="frame" x="100" y="18" width="64" height="64"/>
+                                <rect key="frame" x="100" y="20" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="칠" id="xRv-wO-E3l">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -921,7 +921,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d3a-Il-I8Y">
-                                <rect key="frame" x="182" y="18" width="64" height="64"/>
+                                <rect key="frame" x="182" y="20" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="팔" id="DkE-A5-j5w">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -929,7 +929,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p0N-kj-rPf">
-                                <rect key="frame" x="264" y="18" width="64" height="64"/>
+                                <rect key="frame" x="264" y="20" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="구" id="e1l-GF-lKe">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -937,24 +937,24 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="shx-RW-3e5">
-                                <rect key="frame" x="346" y="18" width="64" height="64"/>
+                                <rect key="frame" x="346" y="20" width="64" height="64"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="분" id="CZ8-uB-GZq">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tdW-k8-J9u">
-                                <rect key="frame" x="428" y="18" width="64" height="64"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="초" id="mbS-EC-7US">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TFH-kG-shV">
+                                <rect key="frame" x="428" y="428" width="64" height="64"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="두" id="4TD-gL-soj">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TFH-kG-shV">
-                                <rect key="frame" x="428" y="426" width="64" height="64"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="두" id="4TD-gL-soj">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tdW-k8-J9u">
+                                <rect key="frame" x="428" y="20" width="64" height="64"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="초" id="mbS-EC-7US">
                                     <font key="font" size="50" name="NanumMyeongjo"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -962,10 +962,54 @@
                             </textField>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="hourEightPost" destination="EAr-1n-Ovd" id="aSb-Yv-z7x"/>
+                        <outlet property="hourEightPre" destination="STV-dN-x62" id="aNO-bb-1bn"/>
+                        <outlet property="hourFivePre" destination="H9a-cL-HNK" id="8ZM-AT-5HG"/>
+                        <outlet property="hourFiveSixPost" destination="6QC-zI-P0z" id="t5w-1H-RWg"/>
+                        <outlet property="hourFour" destination="5xE-mq-gFN" id="WIA-Gz-6wC"/>
+                        <outlet property="hourNinePost" destination="hDG-oV-8Mh" id="4oY-oM-EOF"/>
+                        <outlet property="hourNinePre" destination="RWW-he-8pX" id="FHU-2o-F08"/>
+                        <outlet property="hourOne" destination="zQs-K8-kY9" id="oy2-qP-loH"/>
+                        <outlet property="hourPost" destination="ajh-yw-aLb" id="gDn-QS-sIs"/>
+                        <outlet property="hourPreAmPmPre" destination="6fc-Ys-n8j" id="hqy-3G-QXf"/>
+                        <outlet property="hourPreAmPost" destination="imk-y8-gA5" id="z1R-1B-Wre"/>
+                        <outlet property="hourPrePmPost" destination="dO7-5Y-Rh6" id="19h-gL-Cpy"/>
+                        <outlet property="hourSevenPost" destination="1ic-hZ-Zwd" id="PsG-nM-3QV"/>
+                        <outlet property="hourSevenPre" destination="W0w-wq-kZi" id="pGG-g2-lAc"/>
+                        <outlet property="hourSixPre" destination="Lmi-nz-qWw" id="Jdf-K6-mH8"/>
+                        <outlet property="hourTen" destination="9rV-Sn-SSU" id="UKp-cb-sJZ"/>
+                        <outlet property="hourThree" destination="qix-Rm-aC1" id="dnf-ti-XRc"/>
+                        <outlet property="hourTwo" destination="TFH-kG-shV" id="y9R-RC-Rtz"/>
+                        <outlet property="hour_am" destination="imk-y8-gA5" id="unF-SY-kOt"/>
+                        <outlet property="hour_five_pre" destination="H9a-cL-HNK" id="qNf-Sc-ccJ"/>
+                        <outlet property="hour_four" destination="5xE-mq-gFN" id="WYi-m7-bS5"/>
+                        <outlet property="hour_one" destination="zQs-K8-kY9" id="lbR-VT-kzF"/>
+                        <outlet property="hour_six_pre" destination="Lmi-nz-qWw" id="n0k-WW-9Nd"/>
+                        <outlet property="hour_ten" destination="9rV-Sn-SSU" id="IkZ-Ue-Xou"/>
+                        <outlet property="midnightPostMoonPre" destination="AU5-tS-xeN" id="eCr-gj-Z6F"/>
+                        <outlet property="midnightPre" destination="wST-fj-Ec5" id="Vae-aU-FYa"/>
+                        <outlet property="minuteEight" destination="d3a-Il-I8Y" id="hlw-g4-hq6"/>
+                        <outlet property="minuteFifty" destination="d3i-Jr-eet" id="gck-e8-PMj"/>
+                        <outlet property="minuteFiveNoonPost" destination="2GW-te-KSf" id="gaF-Og-VYH"/>
+                        <outlet property="minuteForty" destination="6aX-Gn-mbF" id="Nlp-az-Fx8"/>
+                        <outlet property="minuteFour" destination="A9m-YG-7bv" id="LHy-K9-W0u"/>
+                        <outlet property="minuteNine" destination="e1l-GF-lKe" id="764-XD-PfQ"/>
+                        <outlet property="minuteOne" destination="n9k-yJ-TNz" id="fJo-wj-Djg"/>
+                        <outlet property="minutePost" destination="shx-RW-3e5" id="ixx-Of-Fuh"/>
+                        <outlet property="minuteSeven" destination="KFR-kf-WUt" id="k0N-k5-RkV"/>
+                        <outlet property="minuteSix" destination="Smd-Sj-w0U" id="C5W-le-VW2"/>
+                        <outlet property="minuteTen" destination="EjK-99-Ly7" id="VLs-id-wL9"/>
+                        <outlet property="minuteThirty" destination="i7V-cP-en9" id="4QB-L2-dlp"/>
+                        <outlet property="minuteThree" destination="3MX-GU-X8u" id="t1m-ZN-Qat"/>
+                        <outlet property="minuteTwenty" destination="lXc-bc-ldv" id="yMk-YW-zMg"/>
+                        <outlet property="minuteTwo" destination="GZa-Hk-NCh" id="p8r-By-cLx"/>
+                        <outlet property="second" destination="tdW-k8-J9u" id="Kd6-U0-JT2"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="863"/>
+            <point key="canvasLocation" x="75" y="864"/>
         </scene>
     </scenes>
 </document>
