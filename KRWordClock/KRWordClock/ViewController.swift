@@ -65,6 +65,9 @@ class ViewController: NSViewController {
                 midnightPre, midnightPostMoonPre, minuteFiveNoonPost,
                 minuteSix, minuteSeven, minuteEight, minuteNine, minutePost,
                 secondPost ]}
+    var minuteTens: [NSTextField]! {
+        return [minuteTen, minuteTwenty, minuteThirty, minuteForty, minuteFifty]
+    }
     
     var bShowSec: Bool = false
     
@@ -140,19 +143,24 @@ class ViewController: NSViewController {
     }
     
     func setMinutes(minute: Int) {
-        switch (minute/10) {
-        case 1:
-            minuteTen.textColor = color
-        case 2:
-            minuteTwenty.textColor = color
-        case 3:
-            minuteThirty.textColor = color
-        case 4:
-            minuteForty.textColor = color
-        case 5:
-            minuteFifty.textColor = color
-        default:
-            minuteTen.textColor = color
+//        switch (minute/10) {
+//        case 1:
+//            minuteTen.textColor = color
+//        case 2:
+//            minuteTwenty.textColor = color
+//        case 3:
+//            minuteThirty.textColor = color
+//        case 4:
+//            minuteForty.textColor = color
+//        case 5:
+//            minuteFifty.textColor = color
+//        default:
+//            minuteTen.textColor = color
+//        }
+//
+        let tenUnit = minute/10
+        if tenUnit != 0 {
+            minuteTens[tenUnit-1].textColor = color
         }
         if (minute / 10 != 0) {
             minuteTen.textColor = color
