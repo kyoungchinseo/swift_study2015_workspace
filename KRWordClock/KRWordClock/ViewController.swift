@@ -70,38 +70,27 @@ class ViewController: NSViewController {
     
     var timer = NSTimer()
     
+    let color = NSColor.redColor()
+    
     func clear_color() {
         for var i=0;i<allOfTextField.count;i++ {
             allOfTextField[i].textColor = NSColor.blackColor()
         }
     }
     
-    
-    func counting() {
-        clear_color()
-        
-        let gregorian = NSCalendar.currentCalendar()
-        let dayComponents = gregorian.components([.Hour, .Minute, .Second], fromDate: NSDate())
-        
-        print("\(dayComponents)")
-       
-        
-        let color = NSColor.redColor()
-        
-        print("\(dayComponents.hour/12)")
-        
-        if (dayComponents.hour / 12 == 1) {
+    func setAMPM(DateCoponent: NSDateComponents) {
+        if (DateCoponent.hour / 12 == 1) {
             hourPreAmPmPre.textColor = color
             hourPrePmPost.textColor = color
         } else {
             hourPreAmPmPre.textColor = color
             hourPreAmPost.textColor = color
         }
-        
-        print("\(dayComponents.hour%12)")
-        
-        if (dayComponents.hour % 12 == 0) {
-            if (dayComponents.hour / 12 == 1) {
+    }
+    
+    func setHours(DateCoponent: NSDateComponents) {
+        if (DateCoponent.hour % 12 == 0) { // 12 or 24
+            if (DateCoponent.hour / 12 == 1) {
                 // 정오
                 midnightPostMoonPre.textColor = color
                 minuteFiveNoonPost.textColor = color
@@ -110,9 +99,8 @@ class ViewController: NSViewController {
                 midnightPre.textColor = color
                 midnightPostMoonPre.textColor = color
             }
-            
         } else {
-            switch (dayComponents.hour % 12) {
+            switch (DateCoponent.hour % 12) {
             case 1:
                 hourOne.textColor = color
             case 2:
@@ -148,16 +136,11 @@ class ViewController: NSViewController {
                 hourPost.textColor = color
             }
             hourPost.textColor = color
-            
         }
-        
-        
-        // minutes
-        //
-        print("\(dayComponents.minute%10)")
-        print("\(dayComponents.minute/10)")
-        
-        switch (dayComponents.minute/10) {
+    }
+    
+    func setMinutes(DateCoponent: NSDateComponents) {
+        switch (DateCoponent.minute/10) {
         case 1:
             minuteTen.textColor = color
         case 2:
@@ -173,7 +156,7 @@ class ViewController: NSViewController {
         }
         minuteTen.textColor = color
         
-        switch (dayComponents.minute%10) {
+        switch (DateCoponent.minute%10) {
         case 1:
             minuteOne.textColor = color
         case 2:
@@ -196,17 +179,12 @@ class ViewController: NSViewController {
             minuteTen.textColor = color //
         }
         minutePost.textColor = color
+    }
+    
+    func setSeconds(DateCoponent: NSDateComponents) {
+        let secColor = NSColor.blueColor()
         
-        bShowSec = !bShowSec
-        var secColor = NSColor.blueColor()
-        if (bShowSec) {
-            secColor = NSColor.blackColor()
-        }
-        // seconds
-        print("\(dayComponents.second%10)")
-        print("\(dayComponents.second/10)")
-        
-        switch (dayComponents.second/10) {
+        switch (DateCoponent.second/10) {
         case 1:
             minuteTen.textColor = secColor
         case 2:
@@ -222,11 +200,11 @@ class ViewController: NSViewController {
             minuteFifty.textColor = secColor
             minuteTen.textColor = secColor
         default:
-            minuteTen.textColor = NSColor.blackColor() //
+            second.textColor = secColor
+
         }
         
-        
-        switch (dayComponents.second%10) {
+        switch (DateCoponent.second%10) {
         case 1:
             minuteOne.textColor = secColor
         case 2:
@@ -246,10 +224,42 @@ class ViewController: NSViewController {
         case 9:
             minuteNine.textColor = secColor
         default:
-            minuteTen.textColor = secColor //
+            second.textColor = secColor
         }
-        second.textColor = secColor
         
+        if (DateCoponent.second%10 != 0) || (DateCoponent.second/10 != 0) {
+            second.textColor = secColor
+        }
+    }
+    
+    
+    
+    func counting() {
+        
+        let gregorian = NSCalendar.currentCalendar()
+        let dayComponents = gregorian.components([.Hour, .Minute, .Second], fromDate: NSDate())
+        
+        clear_color()
+        
+        print("\(dayComponents)")
+        
+        print("\(dayComponents.hour/12)")
+        setAMPM(dayComponents)
+        
+        print("hour = \(dayComponents.hour%12)")
+        setHours(dayComponents)
+        
+        // minutes & seconds
+        print("minute = \(dayComponents.minute/10) \(dayComponents.minute%10)")
+        print("second = \(dayComponents.second/10) \(dayComponents.second%10)")
+        bShowSec = !bShowSec
+        if (bShowSec) {
+            setMinutes(dayComponents)
+            setSeconds(dayComponents)
+        } else {
+            setSeconds(dayComponents)
+            setMinutes(dayComponents)
+        }
     }
 
     override func viewDidLoad() {
