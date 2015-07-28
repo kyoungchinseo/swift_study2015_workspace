@@ -963,6 +963,7 @@
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="hello" destination="n9k-yJ-TNz" id="NvC-tC-VlR"/>
                         <outlet property="hourEightPost" destination="EAr-1n-Ovd" id="aSb-Yv-z7x"/>
                         <outlet property="hourEightPre" destination="STV-dN-x62" id="aNO-bb-1bn"/>
                         <outlet property="hourFivePre" destination="H9a-cL-HNK" id="8ZM-AT-5HG"/>
@@ -971,7 +972,7 @@
                         <outlet property="hourNinePost" destination="hDG-oV-8Mh" id="4oY-oM-EOF"/>
                         <outlet property="hourNinePre" destination="RWW-he-8pX" id="FHU-2o-F08"/>
                         <outlet property="hourOne" destination="zQs-K8-kY9" id="oy2-qP-loH"/>
-                        <outlet property="hourPost" destination="ajh-yw-aLb" id="gDn-QS-sIs"/>
+                        <outlet property="hourPost" destination="1F9-Le-XLw" id="NI0-Vq-edu"/>
                         <outlet property="hourPreAmPmPre" destination="6fc-Ys-n8j" id="hqy-3G-QXf"/>
                         <outlet property="hourPreAmPost" destination="imk-y8-gA5" id="z1R-1B-Wre"/>
                         <outlet property="hourPrePmPost" destination="dO7-5Y-Rh6" id="19h-gL-Cpy"/>
@@ -994,7 +995,7 @@
                         <outlet property="minuteFiveNoonPost" destination="2GW-te-KSf" id="gaF-Og-VYH"/>
                         <outlet property="minuteForty" destination="6aX-Gn-mbF" id="Nlp-az-Fx8"/>
                         <outlet property="minuteFour" destination="A9m-YG-7bv" id="LHy-K9-W0u"/>
-                        <outlet property="minuteNine" destination="e1l-GF-lKe" id="764-XD-PfQ"/>
+                        <outlet property="minuteNine" destination="p0N-kj-rPf" id="C0g-lW-nhd"/>
                         <outlet property="minuteOne" destination="n9k-yJ-TNz" id="fJo-wj-Djg"/>
                         <outlet property="minutePost" destination="shx-RW-3e5" id="ixx-Of-Fuh"/>
                         <outlet property="minuteSeven" destination="KFR-kf-WUt" id="k0N-k5-RkV"/>

@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>160D236D-E6EC-4E32-93EC-9D93619D2E3C</string>
+	<string>F4A03709-C6A1-4F22-921E-120DD657F0B8</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>playground</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>6C98C21396DE89A9F21283E148455AA1127AB8AD</key>
 		<string>https://github.com/kyoungchinseo/swift_study2015_workspace.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>KRWordClock/KRWordClock.xcodeproj/project.xcworkspace</string>
+	<string>week05-practice-subscripts.playground/playground.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6C98C21396DE89A9F21283E148455AA1127AB8AD</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/kyoungchinseo/swift_study2015_workspace.git</string>
