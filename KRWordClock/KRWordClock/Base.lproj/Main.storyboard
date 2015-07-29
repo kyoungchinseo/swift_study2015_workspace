@@ -963,7 +963,6 @@
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="hello" destination="n9k-yJ-TNz" id="NvC-tC-VlR"/>
                         <outlet property="hourEightPost" destination="EAr-1n-Ovd" id="aSb-Yv-z7x"/>
                         <outlet property="hourEightPre" destination="STV-dN-x62" id="aNO-bb-1bn"/>
                         <outlet property="hourFivePre" destination="H9a-cL-HNK" id="8ZM-AT-5HG"/>
