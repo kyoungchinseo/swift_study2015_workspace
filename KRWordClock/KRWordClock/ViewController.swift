@@ -75,39 +75,34 @@ class ViewController: NSViewController {
     let color = NSColor.redColor()
     
     func clearColor() {
-        for (_, item) in ClockSigns {
-            for v in item {
-                v.textColor = NSColor.blackColor()
+        for (_, itemList) in ClockSigns {
+            for item in itemList {
+                item.textColor = NSColor.blackColor()
             }
         }
     }
     
     func setAMPM(DateComponent: NSDateComponents) {
-        
         let hour: Int = DateComponent.hour
-        let minute: Int = DateComponent.minute
-        let second: Int = DateComponent.second
         
-        if (hour / 12 != 0) && ((minute != 0) || (second != 0)) {
-        if (hour / 12 < 1) {
-            // am
-            ClockSigns["HourAMPM"]![0].textColor = color
-            ClockSigns["HourAMPM"]![1].textColor = color
-        } else {
-            // pm
-            ClockSigns["HourAMPM"]![0].textColor = color
-            ClockSigns["HourAMPM"]![2].textColor = color
-        }
+        if (hour / 12 != 0) && ((DateComponent.minute != 0) || (DateComponent.second != 0)) {
+            if (hour / 12 < 1) {
+                // am
+                ClockSigns["HourAMPM"]![0].textColor = color
+                ClockSigns["HourAMPM"]![1].textColor = color
+            } else {
+                // pm
+                ClockSigns["HourAMPM"]![0].textColor = color
+                ClockSigns["HourAMPM"]![2].textColor = color
+            }
         }
     }
     
     func setHours(DateComponent: NSDateComponents) {
-        
         let hour: Int = DateComponent.hour
-        let minute: Int = DateComponent.minute
-        let second: Int = DateComponent.second
         
-        if (hour % 12 == 0) && (minute == 0) && (second == 0) { // 12 or 24
+        if (hour % 12 == 0) && (DateComponent.minute == 0) && (DateComponent.second == 0) {
+            // 12:00:00 or 24:00:00
             if (hour / 12 == 1) {
                 // 정오
                 ClockSigns["NoonMidnight"]![1].textColor = color
@@ -141,7 +136,6 @@ class ViewController: NSViewController {
     
     func setMinutes(minute: Int) {
         let indexTen: Int = minute/10
-        
         if indexTen != 0 {
             ClockSigns["MinuteTens"]![indexTen-1].textColor = color
         }
@@ -153,12 +147,9 @@ class ViewController: NSViewController {
         if (indexOne != 0) {
             ClockSigns["MinuteOnes"]![indexOne-1].textColor = color
         }
-        
         if (minute%10 != 0) || (minute/10 != 0) {
-            //minutePost.textColor = color
             ClockSigns["TimeUnitSigns"]![1].textColor = color
         }
-        
     }
     
     func setSeconds(second: Int) {
@@ -176,7 +167,6 @@ class ViewController: NSViewController {
         if (indexOne != 0 ) {
             ClockSigns["MinuteOnes"]![indexOne-1].textColor = secColor
         }
-        
         if (second%10 != 0) || (second/10 != 0) {
             ClockSigns["TimeUnitSigns"]![2].textColor = secColor
         }
@@ -185,14 +175,13 @@ class ViewController: NSViewController {
     func counting() {
         let gregorian = NSCalendar.currentCalendar()
         let dayComponents = gregorian.components([.Hour, .Minute, .Second], fromDate: NSDate())
-        
-        clearColor()
         print("\(dayComponents)")
         
-        // hours
+        clearColor()
+        // AM / PM
         setAMPM(dayComponents)
-        
-        
+    
+        // midnight/noon & hours
         setHours(dayComponents)
         
         // minutes & seconds
@@ -208,7 +197,6 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         timer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: Selector("counting"), userInfo: nil, repeats: true)
     }
 
