@@ -115,6 +115,75 @@ let game = SnakesAndLadders()
 game.delegate = tracker
 game.play()
 
+// adopt and conform with extension
+
+protocol TextRepresentable {
+    func asText() -> String
+}
+
+extension Dice: TextRepresentable {
+    func asText() -> String {
+        return "A \(sides)-sided dice"
+    }
+}
+
+let d12 = Dice(sides: 12, generator: LinearCongruentialGenerator())
+print(d12.asText())
+
+extension SnakesAndLadders: TextRepresentable {
+    func asText() -> String {
+        return "A game of Snakes and Ladders with \(finalSquare) squares"
+    }
+}
+print(game.asText())
+
+// declaring
+struct Hamster {
+    var name: String
+    func asText() ->String {
+        return "A hamster named \(name)"
+    }
+}
+
+extension Hamster: TextRepresentable {}
+
+
+let simonTheHamster = Hamster(name: "Simon")
+let somethingText: TextRepresentable = simonTheHamster
+print(somethingText.asText())
+
+// collections of protocol types
+let things: [TextRepresentable] = [game, d12, simonTheHamster]
+
+for thing in things {
+    print(thing.asText())
+}
+
+protocol PrettyTextRepresentable: TextRepresentable {
+    func asPrettyText() -> String
+}
+
+extension SnakesAndLadders: PrettyTextRepresentable {
+    func asPrettyText() -> String {
+        var output = asText() + ":\n"
+        for index in 1...finalSquare {
+            switch board[index] {
+            case let ladder where ladder > 0:
+                output += "^ "
+            case let snake where snake < 0:
+                output += "v "
+            default:
+                output += "o "
+            }
+        }
+        return output
+    }
+}
+
+print(game.asPrettyText())
+
+
+
 
 
 
