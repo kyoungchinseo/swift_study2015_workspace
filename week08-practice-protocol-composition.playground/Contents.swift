@@ -19,6 +19,18 @@ func wishHappyBirthday(celebrator: protocol<Named, Aged>) {
     print("Happy birthday \(celebrator.name) - you're \(celebrator.age)!")
 }
 
+
+
 let birthdayPerson = Person(name: "Malcolm", age: 21)
 
 wishHappyBirthday(birthdayPerson)
+
+
+func wishHappyBirthday2(celebrator: Person) {
+    print("Happy birthday \(celebrator.name) - you're \(celebrator.age)!")
+}
+
+
+let birthdayPerson2 = Person(name: "MalcolmX", age: 42)
+
+wishHappyBirthday2(birthdayPerson2)
