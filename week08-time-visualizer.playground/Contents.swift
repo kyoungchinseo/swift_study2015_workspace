@@ -3,7 +3,6 @@
 import UIKit
 
 
-
 @objc protocol Time {
     var day: Int { get }
     var month: Int { get }
